@@ -1,0 +1,2 @@
+# Lua pairs iterator unexpected behavior
+This repository demonstrates a potential issue with Lua's `pairs` iterator when used with tables that are modified during iteration.  The `bug.lua` file shows the problem.  The `bugSolution.lua` offers a solution using a copy of the table to avoid in-place modification.
